@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="ImageCharts" constructor="ImageChartsGenerator" version="1.0.0" display-name-key="ImageChartsGenerator" description-key="Generic Image-Charts generator - supports all chart types" control-type="standard">
+
+    <property name="accountId" display-name-key="Account ID" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="secretKey" display-name-key="Secret Key" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="privateCloudDomain" display-name-key="Private Cloud Domain" of-type="SingleLine.Text" usage="input" required="false" />
+
+    <property name="chartType" display-name-key="Chart Type" description-key="Image-Charts chart type (cht parameter): qr, bvs, bhs, lc, p, pd, etc." of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="chartData" display-name-key="Chart Data" description-key="Chart data (chd parameter) in Image-Charts format" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="customParams" display-name-key="Custom Parameters" description-key="Full custom query string (key=value&amp;key2=value2)" of-type="SingleLine.Text" usage="input" required="false" />
+
+    <property name="chartSize" display-name-key="Chart Size" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="advancedOptions" display-name-key="Advanced Options" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="showDebugUrl" display-name-key="Show Debug URL" of-type="TwoOptions" usage="input" required="false" />
+    <property name="errorPlaceholderUrl" display-name-key="Error Placeholder URL" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="signedUrl" display-name-key="Signed URL" of-type="SingleLine.Text" usage="output" />
+
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/ImageChartsGenerator.css" order="1" />
+    </resources>
+  </control>
+</manifest>
