@@ -1,6 +1,6 @@
 {
   "name": "@image-charts/pcf-generic",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Image-Charts Generic Chart Generator for Microsoft Power Apps (PCF Component) - Supports all chart types",
   "main": "solution/ImageChartsGeneric.zip",
   "types": "src/ImageChartsGenerator/index.d.ts",
