@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.0.0] - 2026-11-12
+## [1.0.0] - 2026-11-13
 
 ### Added
 - Initial release of Image-Charts Generic Chart Generator PCF component
