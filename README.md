@@ -32,8 +32,8 @@ ImageChartsGenerator.customParams = "chs=400x300&chl=Q1|Q2|Q3|Q4"
 
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
-| `accountId` | Text | No* | Enterprise Account ID |
-| `secretKey` | Text | No* | Enterprise Secret Key |
+| `accountId` | Text | No* | Paid plan account ID |
+| `secretKey` | Text | No* | Paid plan secret key |
 | `privateCloudDomain` | Text | No* | Private Cloud domain |
 | `chartType` | Text | **Yes** | Image-Charts `cht` parameter (e.g., `qr`, `bvs`, `p`, `lc`) |
 | `chartData` | Text | **Yes** | Image-Charts `chd` parameter |
